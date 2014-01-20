@@ -1,0 +1,155 @@
+/*Cascading Style Sheet for 37signals clone project*/
+
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	font-family: sans-serif;
+}
+
+/*Date Set-Up*/
+.date{
+	position: absolute;
+	left: 55px;
+	right: 30px;
+	font-size: 12px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Helvetica", sans-serif;
+	color:#999;
+	margin-top: 20px;
+	min-width: 80px;
+}
+
+/*Navigation Bar Set-up*/
+.navbar{
+	height: 50px;
+	width: 100%;
+	font-size: 12px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Verdana", sans-serif;
+}
+.navbar ul{
+	margin-right: 50px;
+	margin-top: 20px;
+	float: right; 
+}
+.navbar li{
+	display: inline-block;
+	padding-right: 20px;
+}
+.navbar a{
+	color: #369;
+	text-decoration: none;
+}
+span{
+	color: #18afe0;
+}
+div img{
+	position: relative;
+	margin: 0 auto;
+}
+div a{
+	text-decoration: none;
+}
+
+/*Sign-in link*/
+#signin{
+	color: #18afe0;
+}
+
+/*Main Content Set-Up*/
+.content{
+	position: relative;
+	width: 815px;
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*Headline Set-Up*/
+.content h1{
+	font-family: "Times New Roman", Georgia, serif;
+	font-size: 58px;
+	font-weight: 500;
+	letter-spacing: -2px;
+	line-height: 1.0em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*Sub-headline Set-Up*/
+.content h5{
+	font-size: 16px;
+}
+
+/*Products Set-Up*/
+.products{
+	position: relative;
+	width: 690px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.products div{
+	display: inline-block;
+	width: 180px;
+	text-align: center;
+	border: 1px solid #e8e8e8;
+	border-radius: 6px;
+	padding: 30px 0 30px 0px;
+	margin: 0px 22px 0px 22px;
+
+	/*Gradient Set-Up*/
+
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #ECDFFA 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #ECDFFA 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #ECDFFA 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #ECDFFA));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #ECDFFA 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #ECDFFA 100%);
+}
+/*Products Title Set-Up*/
+.products h3{
+	font-family: "Lucida Grandre", "Lucida Sans Unicode", Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #369;
+	margin-top: 10px;
+}
+/*Products Subtitle Set-Up*/
+.products h4{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #cc0000;
+	margin-top: 10px;
+}
+/*Products Paragraph*/
+.products p{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #222;
+	margin-top: 10px;
+}
+
+.products sup{
+	position: relative;
+	font-size: 0.5em;
+	color: gray;
+	font-weight: lighter;
+	vertical-align: top;
+}
+
+/*Asterisks Footer*/
+#asterisks{
+	margin-top:30px;
+}
